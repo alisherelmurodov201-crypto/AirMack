@@ -1,0 +1,122 @@
+═══════════════════════════════════════════════════════════════
+  GITHUB GA PUSH QILISH - QADAM-BA-QADAM YO'RIQNOMA
+═══════════════════════════════════════════════════════════════
+
+MUHIM: Sizda Git o'rnatilmagan! Avval Git o'rnatish kerak.
+
+═══════════════════════════════════════════════════════════════
+QADAM 1: GIT O'RNATISH
+═══════════════════════════════════════════════════════════════
+
+1. Quyidagi havolaga o'ting:
+   https://git-scm.com/download/win
+
+2. "64-bit Git for Windows Setup" ni yuklab oling
+
+3. O'rnatish jarayonida barcha default sozlamalarni qoldiring
+
+4. O'rnatish tugagandan keyin PowerShell yoki Git Bash ni qayta oching
+
+═══════════════════════════════════════════════════════════════
+QADAM 2: GITHUB REPOSITORY YARATISH
+═══════════════════════════════════════════════════════════════
+
+1. GitHub ga kiring: https://github.com
+
+2. O'ng yuqori burchakda "+" belgisini bosing
+
+3. "New repository" ni tanlang
+
+4. Repository nomi: AirMack
+
+5. Description (ixtiyoriy): Apple mahsulotlari e-commerce platformasi
+
+6. Public yoki Private tanlang
+
+7. "Create repository" tugmasini bosing
+
+MUHIM: "Initialize this repository with a README" ni TANLANG!
+
+═══════════════════════════════════════════════════════════════
+QADAM 3: LOYIHANI GIT REPOSITORY GA AYLANTIRISH
+═══════════════════════════════════════════════════════════════
+
+PowerShell yoki Git Bash da loyiha papkasiga o'ting:
+cd C:\Users\user\Desktop\air-shop-hub-main
+
+Keyin quyidagi buyruqlarni KETMA-KET bajaring:
+
+1. Git repository yaratish:
+   git init
+
+2. Barcha fayllarni qo'shish:
+   git add .
+
+3. Birinchi commit:
+   git commit -m "first commit"
+
+4. Main branch yaratish:
+   git branch -M main
+
+5. Remote repository qo'shish:
+   git remote add origin https://github.com/alisherelmurodov201-crypto/AirMack.git
+
+6. GitHub ga push qilish:
+   git push -u origin main
+
+═══════════════════════════════════════════════════════════════
+XAVFSIZLIK TEKSHIRUVI
+═══════════════════════════════════════════════════════════════
+
+✅ .env fayli .gitignore da - XAVFSIZ
+✅ node_modules .gitignore da - XAVFSIZ  
+✅ dist papka .gitignore da - XAVFSIZ
+✅ README.md yaratildi
+✅ Telegram bot token xavfsiz
+
+═══════════════════════════════════════════════════════════════
+AGAR XATO YUZ BERSA
+═══════════════════════════════════════════════════════════════
+
+Xato 1: "remote origin already exists"
+Yechim:
+   git remote remove origin
+   git remote add origin https://github.com/alisherelmurodov201-crypto/AirMack.git
+
+Xato 2: "failed to push some refs"
+Yechim:
+   git pull origin main --allow-unrelated-histories
+   git push -u origin main
+
+Xato 3: "Permission denied"
+Yechim:
+   - GitHub da login qilganligingizni tekshiring
+   - Personal Access Token yarating va parol o'rniga ishlatng
+
+═══════════════════════════════════════════════════════════════
+YAKUNIY TEKSHIRISH
+═══════════════════════════════════════════════════════════════
+
+Push muvaffaqiyatli bo'lgandan keyin:
+
+1. GitHub repository ga o'ting:
+   https://github.com/alisherelmurodov201-crypto/AirMack
+
+2. Barcha fayllar ko'rinishini tekshiring
+
+3. .env fayli YO'QLIGINI tekshiring (xavfsizlik uchun)
+
+4. README.md to'g'ri ko'rinishini tekshiring
+
+═══════════════════════════════════════════════════════════════
+QISQACHA BUYRUQLAR (Git o'rnatilgandan keyin)
+═══════════════════════════════════════════════════════════════
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/alisherelmurodov201-crypto/AirMack.git
+git push -u origin main
+
+═══════════════════════════════════════════════════════════════

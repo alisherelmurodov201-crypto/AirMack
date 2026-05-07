@@ -1,0 +1,120 @@
+═══════════════════════════════════════════════════════════════
+  GIT O'RNATISH VA PUSH QILISH - TEZKOR YO'RIQNOMA
+═══════════════════════════════════════════════════════════════
+
+HOZIRGI HOLAT:
+- GitHub repository yaratilgan: ✓
+- Loyiha tayyor: ✓
+- Git o'rnatilgan: ✗ (O'RNATISH KERAK!)
+
+═══════════════════════════════════════════════════════════════
+QADAM 1: GIT O'RNATISH (5 daqiqa)
+═══════════════════════════════════════════════════════════════
+
+1. Quyidagi linkni brauzerda oching:
+   https://git-scm.com/download/win
+
+2. "Click here to download" tugmasini bosing
+
+3. Yuklab olingan faylni ishga tushiring (Git-2.xx.x-64-bit.exe)
+
+4. O'rnatish jarayonida:
+   - "Next" tugmasini bosing (barcha default sozlamalar yaxshi)
+   - "Install" tugmasini bosing
+   - "Finish" tugmasini bosing
+
+5. PowerShell ni YOPING va QAYTA OCHING (muhim!)
+
+═══════════════════════════════════════════════════════════════
+QADAM 2: GIT KONFIGURATSIYA (1 daqiqa)
+═══════════════════════════════════════════════════════════════
+
+PowerShell da quyidagi buyruqlarni bajaring:
+
+git config --global user.name "alisherelmurodov201-crypto"
+git config --global user.email "your-email@example.com"
+
+(email ni o'zingizniki bilan almashtiring)
+
+═══════════════════════════════════════════════════════════════
+QADAM 3: LOYIHANI PUSH QILISH (2 daqiqa)
+═══════════════════════════════════════════════════════════════
+
+PowerShell da loyiha papkasida quyidagi buyruqlarni KETMA-KET bajaring:
+
+cd C:\Users\user\Desktop\air-shop-hub-main
+
+git init
+
+git add .
+
+git commit -m "Initial commit: AirMack e-commerce platform"
+
+git branch -M main
+
+git remote add origin https://github.com/alisherelmurodov201-crypto/AirMack.git
+
+git push -u origin main
+
+═══════════════════════════════════════════════════════════════
+AGAR PAROL SO'RALSA
+═══════════════════════════════════════════════════════════════
+
+GitHub parol o'rniga Personal Access Token kerak bo'lishi mumkin:
+
+1. GitHub ga kiring
+2. Settings > Developer settings > Personal access tokens > Tokens (classic)
+3. "Generate new token" > "Generate new token (classic)"
+4. Note: "AirMack push"
+5. Expiration: 90 days
+6. Scope: "repo" ni belgilang
+7. "Generate token" tugmasini bosing
+8. Tokenni NUSXALANG (faqat bir marta ko'rsatiladi!)
+9. Push qilganda parol o'rniga tokenni kiriting
+
+═══════════════════════════════════════════════════════════════
+MUVAFFAQIYAT BELGISI
+═══════════════════════════════════════════════════════════════
+
+Push muvaffaqiyatli bo'lsa, quyidagi xabar chiqadi:
+
+"Branch 'main' set up to track remote branch 'main' from 'origin'."
+
+Keyin GitHub repository sahifasini yangilang:
+https://github.com/alisherelmurodov201-crypto/AirMack
+
+Barcha fayllar ko'rinishi kerak!
+
+═══════════════════════════════════════════════════════════════
+MUAMMOLAR VA YECHIMLAR
+═══════════════════════════════════════════════════════════════
+
+Muammo 1: "git: command not found"
+Yechim: PowerShell ni yoping va qayta oching
+
+Muammo 2: "Permission denied"
+Yechim: Personal Access Token ishlatng (yuqoridagi yo'riqnoma)
+
+Muammo 3: "failed to push"
+Yechim:
+   git pull origin main --allow-unrelated-histories
+   git push -u origin main
+
+═══════════════════════════════════════════════════════════════
+QISQACHA (Git o'rnatilgandan keyin)
+═══════════════════════════════════════════════════════════════
+
+git init
+git add .
+git commit -m "Initial commit: AirMack e-commerce platform"
+git branch -M main
+git remote add origin https://github.com/alisherelmurodov201-crypto/AirMack.git
+git push -u origin main
+
+═══════════════════════════════════════════════════════════════
+
+ESLATMA: Men (AI) to'g'ridan-to'g'ri push qila olmayman, chunki:
+1. Sizda Git o'rnatilmagan
+2. GitHub autentifikatsiya kerak (parol/token)
+
+Siz yuqoridagi yo'riqnomani bajarsangiz, 10 daqiqada push bo'ladi!

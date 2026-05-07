@@ -1,0 +1,28 @@
+🤖 TELEGRAM BOT SOZLASH KO'RSATMASI
+
+1. BOT YARATISH:
+   - Telegram'da @BotFather ni oching
+   - /newbot buyrug'ini yuboring
+   - Bot uchun nom kiriting (masalan: AirMack Shop)
+   - Bot uchun username kiriting (masalan: airmack_shop_bot)
+   - BotFather sizga TOKEN beradi (masalan: 123456789:ABCdefGHIjklMNOpqrsTUVwxyz)
+
+2. CHAT ID OLISH:
+   - Yaratgan botingizni oching va /start bosing
+   - Telegram'da @userinfobot ni oching
+   - U sizga Chat ID ni beradi (masalan: 123456789)
+
+3. .env FAYLNI SOZLASH:
+   - Loyiha papkasida .env faylini oching
+   - VITE_TELEGRAM_BOT_TOKEN= qatoriga bot tokenni qo'ying
+   - VITE_TELEGRAM_CHAT_ID= qatoriga chat ID ni qo'ying
+
+Misol:
+VITE_TELEGRAM_BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrsTUVwxyz
+VITE_TELEGRAM_CHAT_ID=123456789
+
+4. SERVERNI QAYTA ISHGA TUSHIRING:
+   - Terminal'da Ctrl+C bosing
+   - npm run dev buyrug'ini qayta bajaring
+
+✅ Tayyor! Endi buyurtmalar Telegram botingizga keladi.
